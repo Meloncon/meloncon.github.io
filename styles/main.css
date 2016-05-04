@@ -1,0 +1,170 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,700,300);
+
+html {
+    background-color: #fff; /*#212121;*/ /*#90a4ae;*/
+    color: #9e9e9e; /*#bdbdbd;*/
+
+}
+
+h3, h5, h4 {
+    font-family: "Roboto Condensed";
+    font-weight: 200;
+}
+
+
+nav ul a,
+nav {
+  color: #ffa726;
+}
+
+#nav-mobile li {
+    padding: 0;
+}
+
+#nav-mobile li a {
+    padding: 0;
+    color: #0097a7 !important;
+}
+
+@font-face {
+	font-family: 'flexslider-icon';
+	src:url('fonts/flexslider-icon.eot');
+	src:url('fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/flexslider-icon.woff') format('woff'),
+		url('fonts/flexslider-icon.ttf') format('truetype'),
+		url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Custom changes to flexslider */
+a.flex-next,
+a.flex-prev {
+	opacity: .6;
+	color: #0097a7;
+}
+
+.flexslider:hover a.flex-next,
+.flexslider:hover a.flex-prev,
+.flexslider:active a.flex-next,
+.flexslider:active a.flex-prev {
+	opacity: .6;
+}
+
+.flexslider a:hover.flex-next,
+.flexslider a:hover.flex-prev {
+	opacity: .6;
+}
+
+/* END custom changes to flexslider */
+
+.side-nav li:hover, .side-nav li.active {
+    background-color: #424242;
+}
+
+#main-nav .brand-logo {
+    color: #ffa726;
+}
+
+.signature {
+    font-size: 150%;
+    float: right;
+}
+
+ul.side-nav.fixed li.logo {
+    height: 300px;
+    padding: 0;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+ul.side-nav.fixed li.logo:hover {
+    background-color: transparent;
+}
+
+#logo-container {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #ffffff;
+}
+
+#main-content {
+    padding-left: 240px;
+}
+
+.collection, .collection .collection-item {
+    border-style: none;
+}
+
+.mobile-pics-carousel div{
+  margin-right: 8px;
+}
+
+/*.mobile-pics-carousel div img{
+  display: block;
+  width: 100%;
+  height: auto;
+}*/
+
+@media only screen and (max-width : 992px) {
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+
+    #main-content {
+        padding-left: 0;
+    }
+}
+
+.icons {
+    color: #ffd180;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#social .fa {
+    font-size: 200%;
+}
+
+#social li {
+    float: left;
+}
+
+#social .social-padding {
+    padding-left: 15px;
+}
+
+.waves-effect.waves-melon .waves-ripple {
+ /* The alpha value allows the text and background color
+ of the button to still show through. */
+  background-color: rgba(255,209,128, 0.65);
+}
